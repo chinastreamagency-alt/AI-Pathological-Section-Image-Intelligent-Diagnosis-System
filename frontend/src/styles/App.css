@@ -1,0 +1,72 @@
+/* 全局 */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background: #f0f2f5;
+}
+
+/* Logo */
+.logo {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 32px;
+  white-space: nowrap;
+}
+
+/* 上传区域 */
+.upload-dragger {
+  border-radius: 8px;
+}
+.upload-dragger .ant-upload-drag {
+  border: 2px dashed #d9d9d9;
+  border-radius: 8px;
+  padding: 20px;
+  transition: border-color 0.3s;
+}
+.upload-dragger .ant-upload-drag:hover {
+  border-color: #1677ff;
+}
+
+/* 诊断报告 Markdown 样式 */
+.diagnosis-report .markdown-body {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #333;
+}
+.diagnosis-report .markdown-body h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1677ff;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #e8e8e8;
+}
+.diagnosis-report .markdown-body h3 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+.diagnosis-report .markdown-body ul {
+  padding-left: 20px;
+}
+.diagnosis-report .markdown-body li {
+  margin-bottom: 4px;
+}
+.diagnosis-report .markdown-body strong {
+  color: #d4380d;
+}
+.diagnosis-report .markdown-body p {
+  margin-bottom: 8px;
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+  .logo {
+    font-size: 14px;
+    margin-right: 12px;
+  }
+}
